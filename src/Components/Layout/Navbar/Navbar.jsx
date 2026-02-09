@@ -17,11 +17,11 @@ const Navbar = () => {
     <nav className=' w-full py-4 px-10 z-50 fixed top-0 left-0 flex items-center justify-between font-momo text-white'>
         <div className='text-4xl flex items-center gap-2'>
             <div><GiClassicalKnowledge/></div>
-            <h1 className='text-3xl font-bold'>HUB<span className='text-blue-900'>Edu</span></h1>
+            <h1 className='text-3xl font-bold'>HUB<span className='text-cyan-400'>Edu</span></h1>
         </div>
         <ul className='flex gap-8 mx-4 cursor-pointer '>
             {navdata.map((val,i)=>{
-                return <li key={i} className='text-md hover:text-blue-900 hover:ease-in-out'>
+                return <li key={i} className='text-md hover:text-cyan-400 hover:ease-in-out'>
                     {val.h1}
                 </li>
             })}

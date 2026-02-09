@@ -12,7 +12,7 @@ function Home() {
 
     }}   
     >
-        <div className='absolute  top-0 left-0 w-full h-full z-10 bg-blue-900 opacity-50'>
+        <div className='absolute  top-0 left-0 w-full h-full z-10 bg-cyan-950/50'>
         </div>
     <div className='w-full h-screen font-momo relative z-20 flex flex-col justify-center items-center'>
         <div className='max-w-9/12 text-center text-white text-shadow-2xs text-shadow-neutral-600'>
@@ -22,7 +22,7 @@ function Home() {
             </p>
         </div>
         <div className=''>
-            <button className='w-fit h-10 px-4 flex items-center rounded-4xl bg-white text-blue-900 hover:bg-blue-900 hover:cursor-pointer hover:text-white hover:ease-in-out text-md'>
+            <button className='w-fit h-10 px-4 flex items-center rounded-4xl bg-white text-blue-900 hover:bg-cyan-400 hover:cursor-pointer hover:text-white hover:ease-in-out text-md'>
                 Explore More
                 <div className='text-xl ml-2'> <IoIosArrowRoundForward/> </div>
             </button>
